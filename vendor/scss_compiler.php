@@ -14,10 +14,10 @@ class scss_compiler
 
     public function __construct()
     {
-        $this->root_dir = __DIR__ . '/../assets/';
-        $this->scss_file = __DIR__ . '/../assets/scss/styles.scss';
-        $this->css_file = __DIR__ . '/../assets/css/styles.min.css';
-        $this->formatter = 'scss_formatter_compressed';
+        $this->root_dir =   './assets/';
+        $this->scss_file =  './assets/scss/styles.scss';
+        $this->css_file =   './assets/css/styles.min.css';
+        $this->formatter =  'scss_formatter_compressed';
         $this->strip_comments = true;
     }
 
@@ -128,8 +128,8 @@ class scss_compiler
 
 
 $compiler = new scss_compiler();
-$compiler->setScssFile(__DIR__ . '/../assets/scss/print.scss');
-$compiler->setCssFile(__DIR__ . '/../assets/css/print.min.css');
+$compiler->setScssFile('./assets/scss/print.scss');
+$compiler->setCssFile('./assets/css/print.min.css');
 //$compiler->setFormatter('scss_formatter');
 $compiler->setFormatter('scss_formatter_compressed');
 $compiler->compile();
