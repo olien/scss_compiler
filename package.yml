@@ -1,20 +1,20 @@
 # Alle hier gesetzten Werte können über $addon->getProperty($key) abgefragt werden
 
 package: scss_compiler
-version: '0.1'
+version: '1.0'
 author: Oliver Kreischer
-supportpage: http://www.redaxo.org/de/forum/
+supportpage: https://github.com/olien/scss_compiler/issues
 
 page:
   title: 'SCSS Compiler'
   perm: scss_compiler[]
   icon: rex-icon fa-compress
   subpages:
-      einstellungen: { title: 'Einstellungen',perm: scss_compiler[] }
+      einstellungen: { title: 'translate:scss_compiler_setting',perm: scss_compiler[] }
       info:
         title: 'Info'
         subpages:
-          hilfe: { title: 'Hilfe'}
-          changelog: { title: 'Changelog'}
-          #lizenz: { title: 'Lizenz'}
+          info: { title: 'translate:info'}
+          changelog: { title: 'translate:changelog'}
+          license: { title: 'translate:license'}
 
