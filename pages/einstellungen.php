@@ -42,7 +42,7 @@ $content2 = '
 <code>./assets/scss/</code><br/>
 <code>./assets/css/</code><br/><br/>
 
-<p>Im <code>./assets/scss/</code> Ordner werden die Dateien <code>styles.scss</code> und <code>print.scss</code> erwartet die dann zu <code>styles.min.css</code> und <code>print.min.css</code> im Ordner <code>./assets/css/</code> kompiliert werden.</p>
+<p>Im <code>./assets/scss/</code> Ordner werden die Dateien <code>styles.scss</code> und <code>print.scss</code> erwartet die dann zu <code>styles.min.css</code> und <code>print.min.css</code> kompiliert und in den Ordner <code>./assets/css/</code> gespeichert werden.</p>
 ';
 
 $fragment = new rex_fragment();
