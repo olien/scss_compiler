@@ -1,6 +1,6 @@
 
 
-title = SCSS Compiler für Redaxo 5
+scss_compiler_title = SCSS Compiler für Redaxo 5
 scss_compiler_setting           = Einstellungen
 scss_compiler_aktiv             = SCSS Compiler aktiv
 scss_compiler_erklaerung_title  = Kurzerklärung
