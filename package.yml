@@ -1,7 +1,7 @@
 # Alle hier gesetzten Werte können über $addon->getProperty($key) abgefragt werden
 
 package: scss_compiler
-version: '1.5'
+version: '1.6'
 author: Friends Of REDAXO
 supportpage: https://github.com/FriendsOfREDAXO/scss_compiler
 
@@ -11,10 +11,3 @@ page:
   icon: rex-icon fa-compress
   subpages:
       einstellungen: { title: 'translate:scss_compiler_setting',perm: scss_compiler[] }
-      info:
-        title: 'Info'
-        subpages:
-          info: { title: 'translate:info'}
-          changelog: { title: 'translate:changelog'}
-          license: { title: 'translate:license'}
-
