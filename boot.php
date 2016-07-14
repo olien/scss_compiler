@@ -4,6 +4,8 @@ if (!rex::isBackend()) {
         $compiler = new rex_scss_compiler();
         $compiler->setScssFile('./assets/scss/styles.scss');
         $compiler->setCssFile('./assets/css/styles.min.css');
+        $compiler->compile();
+        $compiler = new rex_scss_compiler();
         $compiler->setScssFile('./assets/scss/print.scss');
         $compiler->setCssFile('./assets/css/print.min.css');
         $compiler->compile();
