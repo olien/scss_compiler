@@ -1,5 +1,9 @@
 
 
+### 10.08.2016 Version 1.7 ###
+
+- Kleinere Anpassungen
+
 ### 08.06.2016 Version 1.5 ###
 
 - Umzug nach FOR

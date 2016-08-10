@@ -1,7 +1,8 @@
 ### SCSS Compiler für REDAXO 5 ###
 
-
 Dieses Addon bindet im Frontend den PHP SCSS Compiler _scssphp_ ein.
+
+---
 
 Mehr Infos finden sich hier: [http://leafo.github.io/scssphp/](http://leafo.github.io/scssphp/)
 

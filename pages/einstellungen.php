@@ -43,6 +43,44 @@ $content2 = '
 <code>./assets/css/</code><br/><br/>
 
 <p>Im <code>./assets/scss/</code> Ordner werden die Dateien <code>styles.scss</code> und <code>print.scss</code> erwartet die dann zu <code>styles.min.css</code> und <code>print.min.css</code> kompiliert und in den Ordner <code>./assets/css/</code> gespeichert werden.</p>
+
+
+<br/>
+<p><b>Nuzung:</b></p>
+<br/>
+<p>Die styles.scss könnte so aussehen:</p>
+
+<code>
+@import "scss/mixins/all";<br/>
+@import "scss/project/vars";<br/>
+<br/>
+// Hier die "normalen" SCSS Angaben<br/>
+* {<br/>
+  border: 1px solid lightgrey;<br/>
+}<br/>
+<br/>
+// Am Ende der Datei<br/>
+@import "scss/responsive";<br/>
+</code>
+<br/><br/>
+
+<p>Die _all.scss im Ordner /assets/scss/mixins/ könnte so aussehen:</p>
+
+<code>
+@import "base",<br/>
+"bootstrap_grid",<br/>
+"background",<br/>
+"border",<br/>
+"center",<br/>
+"filter",<br/>
+"gradient",<br/>
+"prefixer",<br/>
+"seohelper",<br/>
+"transform",<br/>
+"transition",<br/>
+"translucent",<br/>
+"unset";<br/>
+</code>
 ';
 
 $fragment = new rex_fragment();
