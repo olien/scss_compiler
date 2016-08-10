@@ -1,4 +1,8 @@
 
+### 10.08.2016 Version 1.8 ###
+
+- Kleinere Anpassungen
+
 
 ### 10.08.2016 Version 1.7 ###
 

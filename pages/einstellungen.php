@@ -51,8 +51,10 @@ $content2 = '
 <p>Die styles.scss könnte so aussehen:</p>
 
 <code>
-@import "scss/mixins/all";<br/>
-@import "scss/project/vars";<br/>
+@import "./assets/scss/01-mixins/_all";<br/>
+@import "./assets/scss/01-page/_all";<br/>
+@import "./assets/scss/03-components/_all";<br/>
+@import "./assets/scss/04-vendor/_all";<br/>
 <br/>
 // Hier die "normalen" SCSS Angaben<br/>
 * {<br/>
@@ -60,7 +62,7 @@ $content2 = '
 }<br/>
 <br/>
 // Am Ende der Datei<br/>
-@import "scss/responsive";<br/>
+@import "./assets/scss/responsive";<br/>
 </code>
 <br/><br/>
 
