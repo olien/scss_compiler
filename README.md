@@ -1,3 +1,11 @@
+---
+
+ACHTUNG: Dieses Addon wird nicht mehr weiterentwikelt.
+
+Empfehlung: [https://github.com/FriendsOfREDAXO/minify](https://github.com/FriendsOfREDAXO/minify)
+
+---
+
 ### SCSS Compiler für REDAXO 5 ###
 
 Dieses Addon bindet im Frontend den PHP SCSS Compiler _scssphp_ ein.
