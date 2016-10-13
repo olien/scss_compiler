@@ -1,9 +1,9 @@
----
 
-ACHTUNG: Dieses Addon wird nicht mehr weiterentwickelt.
+### ACHTUNG: Dieses Addon wird nicht mehr weiterentwickelt.
 
 Empfehlung: https://github.com/FriendsOfREDAXO/minify
 
+---
 ---
 
 ### SCSS Compiler für REDAXO 5 ###
