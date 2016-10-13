@@ -1,8 +1,8 @@
 ---
 
-ACHTUNG: Dieses Addon wird nicht mehr weiterentwikelt.
+ACHTUNG: Dieses Addon wird nicht mehr weiterentwickelt.
 
-Empfehlung: [https://github.com/FriendsOfREDAXO/minify](https://github.com/FriendsOfREDAXO/minify)
+Empfehlung: https://github.com/FriendsOfREDAXO/minify
 
 ---
 
